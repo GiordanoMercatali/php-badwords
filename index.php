@@ -8,12 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="censored.php" method="GET">
+<form action="censored.php" method="GET">
         <label for="firstWord"> The first word is: </label>
         <input type="text" id="firstWord" name="firstWord">
 
-        <label for="censoredWord"> The second word is: </label>
-        <input type="text" id="censoredWord" name="censoredWord">
+        <label for="secondWord"> The second word is: </label>
+        <input type="text" id="secondWord" name="secondWord">
 
         <button type="submit"> Send </button>
     </form>
