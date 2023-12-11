@@ -14,8 +14,10 @@ $censoredWord = $_GET['censoredWord'];
     <h2>Part 1</h2>
     <p><?php echo $firstWord; ?></p>
     <p><?php echo $censoredWord; ?></p>
-    <?php $length = strlen($firstWord); ?>
-    <p><?php echo $length; ?></p>
+    <?php $bothWords = "{$firstWord}{$censoredWord}";
+    $length = strlen($bothWords);
+    ?>
+    <p>Paragraph length: <?php echo $length; ?></p>
 
     <h2>Part 2</h2>
 </body>
