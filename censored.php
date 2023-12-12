@@ -1,6 +1,6 @@
 <?php
 $firstWord = $_GET['firstWord'];
-$censoredWord = $_GET['censoredWord'];
+$secondWord = $_GET['secondWord'];
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +13,8 @@ $censoredWord = $_GET['censoredWord'];
 <body>
     <h2>Part 1</h2>
     <p><?php echo $firstWord; ?></p>
-    <p><?php echo $censoredWord; ?></p>
-    <?php $bothWords = "{$firstWord}{$censoredWord}";
+    <p><?php echo $secondWord; ?></p>
+    <?php $bothWords = "{$firstWord}{$secondWord}";
     $length = strlen($bothWords);
     ?>
     <p>Paragraph length: <?php echo $length; ?></p>
